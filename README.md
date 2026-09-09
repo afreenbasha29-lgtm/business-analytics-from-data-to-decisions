@@ -16,6 +16,7 @@ The same data can therefore be analysed in many ways depending on the decision t
 Before calculating anything, an analyst needs to understand how the business operates and how its data is organised.
 In the hospital data, a patient visit connects patients, doctors, departments, diagnoses, treatments and payments. In the flight data, a ticket connects passengers with flights, airlines and airports.
 This structure determines what can be compared. For example, hospital revenue can be analysed by department or payment method, while airline revenue can be analysed by airline or route.
+
 ----------------------------------------------------
 2. Preparing Data for Analysis
    
@@ -35,6 +36,7 @@ For example, if a hospital visit is accidentally counted twice because of an inc
 The level at which data is analysed can also change the result.
 A hospital can be analysed at the visit level, but management may need information at the department level for resource planning. Similarly, airline data can be viewed at ticket level, passenger level, route level or airline level depending on the question.
 Choosing the wrong level can produce technically correct but practically useless analysis.
+
 ----------------------------------------------------
 3. Measuring What Matters
 
@@ -53,6 +55,7 @@ The hospital analysis also compares revenue generated through different payment 
 From a business perspective, this is not just a way of grouping transactions. It can help management understand how customers are paying and how much business activity flows through each method.
 Depending on the actual business context, this could lead to further questions about payment convenience, transaction costs, customer preferences or dependence on particular payment channels.
 The important point is that the initial analysis does not need to answer every question. It identifies where a business may need to investigate further.
+
 ----------------------------------------------------
 4. Comparing Business Performance
    
@@ -74,6 +77,7 @@ This type of analysis helps move from:
 “Which department is biggest?”
 to:
 “Which departments may require operational attention, and why?”
+
 ----------------------------------------------------
 5. Customer Analytics
    
@@ -100,6 +104,7 @@ From a business perspective, the next question is not simply:
 but:
 “What characteristics are associated with repeat usage?”
 That could lead to deeper analysis of route preferences, pricing, frequency, loyalty status or customer segments.
+
 ----------------------------------------------------
 6. Operational Analytics
    
@@ -124,6 +129,7 @@ This can influence decisions related to:
 •	resource allocation
 •	capacity planning
 A simple monthly count is descriptive. But once the business understands the pattern, it can move towards forecasting future demand.
+
 ----------------------------------------------------
 7. Using Time and Trends
    
@@ -141,6 +147,7 @@ However, other methods could be used depending on the business question:
 •	Seasonal analysis to identify recurring patterns
 •	Time-series forecasting to estimate future demand
 The method should follow the decision. There is little value in building a complex forecasting model if the actual business question is simply whether activity increased compared with the previous month.
+
 ----------------------------------------------------
 8. Making Inferences Carefully
    
@@ -160,6 +167,7 @@ This is a useful example of how context changes interpretation.
 A doctor with a very high average satisfaction score based on only a few visits may look better than a doctor with a slightly lower score across hundreds of visits.
 The business lesson is simple:
 A metric should be judged together with the amount and quality of data behind it.
+
 ----------------------------------------------------
 9. Choosing the Right Analytical Method
     
@@ -194,8 +202,10 @@ This can support decisions involving staffing, inventory, capacity or scheduling
 Sometimes historical data cannot answer the business question.
 Suppose a company believes that changing a customer offer will increase purchases. Historical analysis may show that certain customers already behave differently, but it cannot necessarily determine whether the new offer caused the increase.
 An experiment such as an A/B test can provide stronger evidence about the effect of the change.
+
 This is an important progression:
 Analysis identifies an opportunity → experimentation tests the intervention.
+
 ----------------------------------------------------
 10. Where Analytics Can Become Misleading
     
@@ -215,6 +225,7 @@ For this reason, businesses often need to analyse data at several levels before 
 A dataset may not contain every variable that affects business performance.
 A flight database may show ticket price and passenger behaviour but not necessarily the customer's reason for choosing a particular airline. A hospital database may show waiting time but not every operational reason behind it.
 The absence of a variable does not mean the factor does not exist.
+
 ----------------------------------------------------
 11. From Insight to Business Action
      
@@ -236,6 +247,7 @@ If the analysis only establishes a pattern, the recommendation should be present
 This prevents a common analytical mistake:
 turning a descriptive result into a causal conclusion.
 A strong recommendation therefore considers both the opportunity and the strength of the evidence.
+
 ----------------------------------------------------
 12. The Final Goal: Better Decisions
     
